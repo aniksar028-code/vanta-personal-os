@@ -1,0 +1,49 @@
+{
+  "name": "VANTA \u2014 Personal OS",
+  "short_name": "VANTA",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#070b16",
+  "theme_color": "#0a1020",
+  "description": "A minimal personal operating system for health, strength, focus and consistency.",
+  "icons": [
+    {
+      "src": "vanta-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "vanta-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today",
+      "short_name": "Today",
+      "url": "./#home",
+      "icons": [
+        {
+          "src": "vanta-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Workout",
+      "short_name": "Train",
+      "url": "./#workout",
+      "icons": [
+        {
+          "src": "vanta-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
